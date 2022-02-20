@@ -2,6 +2,7 @@
   "name": "mysite",
   "version": "0.0.0",
   "homepage": "mySite/",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
