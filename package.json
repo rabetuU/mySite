@@ -1,7 +1,7 @@
 {
   "name": "mysite",
   "version": "0.0.0",
-  "homepage": "https://rabetuu.github.io/mySite/",
+  "homepage": "https://rabetuu.github.io/mySite",
   "private": true,
   "scripts": {
     "dev": "vite",
