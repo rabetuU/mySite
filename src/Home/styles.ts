@@ -6,7 +6,6 @@ export const Body = styled.div`
     display: flex;
     background: #1c1c1c;
     color: blue;
-    padding: 0px;
 
     p {
         color: gray;
