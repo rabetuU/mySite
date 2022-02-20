@@ -1,10 +1,12 @@
 {
   "name": "mysite",
   "version": "0.0.0",
-  "homepage": "mySite/",
+  "homepage": "https://rabetuu.github.io/mySite/",
   "private": true,
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
