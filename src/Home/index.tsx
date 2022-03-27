@@ -21,8 +21,8 @@ const Site = () => {
 
             <Body>
 
-                <h1 id="Francisco" style={{left: "15px", top: "-20px",}}>Francisco</h1>
-                <h1 id="Barreto" style={{left: "90px", top: "10px"}}>Barreto</h1>
+                <h1 id="Francisco" style={{left: "15px", top: "-10px",}}>Francisco</h1>
+                <h1 id="Barreto" style={{left: "90px", top: "20px"}}>Barreto</h1>
 
                 <h1 style={{height: "20px",position: "relative",left: "90px", top: "100px", fontSize: "3em"}}>' '</h1>
                 <p>
@@ -42,8 +42,8 @@ const Site = () => {
                 <h1 style={{height: "20px", position: "relative",right: "-300px", top: "130px", fontSize: "2em"}}>Blanch: </h1>
 
                 <ul>
-                    <li><a href={perfil_linkedin}><img src={icon_linkedin}/></a></li>
-                    <li><a href={perfil_github}><img src={icon_github}/></a></li>
+                    <li id="linkedin"><a href={perfil_linkedin}><img src={icon_linkedin}/></a></li>
+                    <li id="github"><a href={perfil_github}><img src={icon_github}/></a></li>
                 </ul>
 
 
